@@ -32,7 +32,6 @@ public class filhosDaCasa {
 		filho1.setIdade(Integer.valueOf(idade));
 		filho1.setDataNascimento(dataNascimento);
 		filho1.setEndereco(endereco);
-		filho1.setRegistroGeral(registroGeral);
 		filho1.setAltura(Double.parseDouble(altura));
 		filho1.setNumeroCpf(numeroCpf);
 		filho1.setNomeMae(nomeMae);
@@ -48,11 +47,14 @@ public class filhosDaCasa {
 		System.out.println("A Idade do filho é " + filho1.getIdade());
 		System.out.println("A data de nascimento do filho é  " + filho1.getDataNascimento());
 		System.out.println("O endereço do filho é" + filho1.getEndereco());
-		System.out.println("O RG do  é " + aluno1.getNumeroCpf());
-		System.out.println("O nome da mãe é aluno é " + aluno1.getNomeMae());
-		System.out.println("O nome do pai do aluno é " + aluno1.getNomePai());
-		System.out.println("A data da matricula do aluno é " + aluno1.getDataMatricula());
-		System.out.println("A altura do aluno é " + aluno1.getAltura());
+		System.out.println("O CPF do filho  é " + filho1.getNumeroCpf());
+		System.out.println("O nome da mãe é aluno é " + filho1.getNomeMae());
+		System.out.println("O nome do pai do aluno é " + filho1.getNomePai());
+		System.out.println("A data da matricula do aluno é " + filho1.getDataEntradaTerreiro());
+		System.out.println("A altura do aluno é " + filho1.getTerreiroAntigo());
+		System.out.println("A altura do aluno é " + filho1.getIncorporacao());
+		System.out.println("A altura do aluno é " + filho1.getGuiaFrente());
+		System.out.println("A altura do aluno é " + filho1.getOrixasCabeca());
 		System.out.println("______________________________________");
 	
 		
