@@ -22,6 +22,86 @@ public class dadosFilhos {
 	
 
 	@Override
+	public boolean equals(Object obj) {
+		if (this == obj)
+			return true;
+		if (obj == null)
+			return false;
+		if (getClass() != obj.getClass())
+			return false;
+		dadosFilhos other = (dadosFilhos) obj;
+		if (Double.doubleToLongBits(altura) != Double.doubleToLongBits(other.altura))
+			return false;
+		if (dataEntradaTerreiro == null) {
+			if (other.dataEntradaTerreiro != null)
+				return false;
+		} else if (!dataEntradaTerreiro.equals(other.dataEntradaTerreiro))
+			return false;
+		if (dataNascimento == null) {
+			if (other.dataNascimento != null)
+				return false;
+		} else if (!dataNascimento.equals(other.dataNascimento))
+			return false;
+		if (diaDeGira == null) {
+			if (other.diaDeGira != null)
+				return false;
+		} else if (!diaDeGira.equals(other.diaDeGira))
+			return false;
+		if (endereco == null) {
+			if (other.endereco != null)
+				return false;
+		} else if (!endereco.equals(other.endereco))
+			return false;
+		if (guiaFrente == null) {
+			if (other.guiaFrente != null)
+				return false;
+		} else if (!guiaFrente.equals(other.guiaFrente))
+			return false;
+		if (idade != other.idade)
+			return false;
+		if (incorporacao == null) {
+			if (other.incorporacao != null)
+				return false;
+		} else if (!incorporacao.equals(other.incorporacao))
+			return false;
+		if (mensalidade == null) {
+			if (other.mensalidade != null)
+				return false;
+		} else if (!mensalidade.equals(other.mensalidade))
+			return false;
+		if (nome == null) {
+			if (other.nome != null)
+				return false;
+		} else if (!nome.equals(other.nome))
+			return false;
+		if (nomeMae == null) {
+			if (other.nomeMae != null)
+				return false;
+		} else if (!nomeMae.equals(other.nomeMae))
+			return false;
+		if (nomePai == null) {
+			if (other.nomePai != null)
+				return false;
+		} else if (!nomePai.equals(other.nomePai))
+			return false;
+		if (numeroCpf == null) {
+			if (other.numeroCpf != null)
+				return false;
+		} else if (!numeroCpf.equals(other.numeroCpf))
+			return false;
+		if (orixasCabeca == null) {
+			if (other.orixasCabeca != null)
+				return false;
+		} else if (!orixasCabeca.equals(other.orixasCabeca))
+			return false;
+		if (terreiroAntigo == null) {
+			if (other.terreiroAntigo != null)
+				return false;
+		} else if (!terreiroAntigo.equals(other.terreiroAntigo))
+			return false;
+		return true;
+	}
+	@Override
 	public String toString() {
 		return "dadosFilhos [nome=" + nome + ", idade=" + idade + ", dataNascimento=" + dataNascimento + ", endereco="
 				+ endereco + ", altura=" + altura + ", numeroCpf=" + numeroCpf + ", nomeMae=" + nomeMae + ", nomePai="

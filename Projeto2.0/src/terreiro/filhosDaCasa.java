@@ -43,18 +43,18 @@ public class filhosDaCasa {
 		filho1.setOrixasCabeca(orixasCabeca);
 		
 		System.out.println("DADOS DO FILHO:");
-		System.out.println("O nome do filho é " + filho1.getNome());
-		System.out.println("A Idade do filho é " + filho1.getIdade());
-		System.out.println("A data de nascimento do filho é  " + filho1.getDataNascimento());
-		System.out.println("O endereço do filho é" + filho1.getEndereco());
-		System.out.println("O CPF do filho  é " + filho1.getNumeroCpf());
-		System.out.println("O nome da mãe é aluno é " + filho1.getNomeMae());
-		System.out.println("O nome do pai do aluno é " + filho1.getNomePai());
-		System.out.println("A data da matricula do aluno é " + filho1.getDataEntradaTerreiro());
-		System.out.println("A altura do aluno é " + filho1.getTerreiroAntigo());
-		System.out.println("A altura do aluno é " + filho1.getIncorporacao());
-		System.out.println("A altura do aluno é " + filho1.getGuiaFrente());
-		System.out.println("A altura do aluno é " + filho1.getOrixasCabeca());
+		System.out.println("O nome do filho é : " + filho1.getNome());
+		System.out.println("A Idade do filho é : " + filho1.getIdade());
+		System.out.println("A data de nascimento do filho é:   " + filho1.getDataNascimento());
+		System.out.println("O endereço do filho é : " + filho1.getEndereco());
+		System.out.println("O CPF do filho  é : " + filho1.getNumeroCpf());
+		System.out.println("O nome da mãe é : " + filho1.getNomeMae());
+		System.out.println("O nome do pai é : " + filho1.getNomePai());
+		System.out.println("A data de entrada do filho é : " + filho1.getDataEntradaTerreiro());
+		System.out.println("O filho veio do terreiro : " + filho1.getTerreiroAntigo());
+		System.out.println("O filho incorpora :  " + filho1.getIncorporacao());
+		System.out.println("O guia de frente é : " + filho1.getGuiaFrente());
+		System.out.println("O orixá de frente é :  " + filho1.getOrixasCabeca());
 		System.out.println("______________________________________");
 	
 		
