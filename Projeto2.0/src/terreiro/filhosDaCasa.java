@@ -15,7 +15,6 @@ public class filhosDaCasa {
 		String idade = JOptionPane.showInputDialog("Qual a idade?");
 		String dataNascimento = JOptionPane.showInputDialog("Qual a data de nascimento?");
 		String endereco = JOptionPane.showInputDialog("Qual seu endereço?");
-		String registroGeral = JOptionPane.showInputDialog("Qual o RG?");
 		String altura = JOptionPane.showInputDialog("Qual sua altura?");
 		String numeroCpf = JOptionPane.showInputDialog("Qual o CPF?");
 		String nomeMae = JOptionPane.showInputDialog("Qual o nome da mãe?");
